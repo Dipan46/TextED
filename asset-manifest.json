@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Dipan46/TextED.git/static/css/main.5f300890.css",
+    "main.js": "/Dipan46/TextED.git/static/js/main.2cf365c8.js",
+    "static/js/453.69de80f6.chunk.js": "/Dipan46/TextED.git/static/js/453.69de80f6.chunk.js",
+    "static/media/wave1.svg": "/Dipan46/TextED.git/static/media/wave1.478f31e39734858a607c.svg",
+    "index.html": "/Dipan46/TextED.git/index.html",
+    "main.5f300890.css.map": "/Dipan46/TextED.git/static/css/main.5f300890.css.map",
+    "main.2cf365c8.js.map": "/Dipan46/TextED.git/static/js/main.2cf365c8.js.map",
+    "453.69de80f6.chunk.js.map": "/Dipan46/TextED.git/static/js/453.69de80f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f300890.css",
+    "static/js/main.2cf365c8.js"
+  ]
+}
