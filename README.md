@@ -1,6 +1,6 @@
 # TextED ✍️
 
-A simple React application where users can type text and **convert it to Uppercase or Lowercase** with a button click!
+A simple React application where users can type text and **convert it to Uppercase or Lowercase etc** with a button click!
 
 It looks like you've listed the features of your app, but there’s a small **repetition** in the text. The **"Convert text to Lowercase"** is mentioned **three times**. Here's a corrected version:
 
