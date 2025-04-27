@@ -2,10 +2,17 @@
 
 A simple React application where users can type text and **convert it to Uppercase or Lowercase** with a button click!
 
+It looks like you've listed the features of your app, but there’s a small **repetition** in the text. The **"Convert text to Lowercase"** is mentioned **three times**. Here's a corrected version:
+
+---
+
 ## 🛠 Features
-- Convert text to **Uppercase**.
-- Convert text to **Lowercase**.
-- Live text updates as you type.
+- Convert text to **Uppercase**
+- Convert text to **Lowercase**
+- Capitalise the first letter of each sentence
+- Capitalise the first letter after "."
+
+---
 
 ## 📂 Project Structure
 ```
