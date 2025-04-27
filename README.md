@@ -1,12 +1,59 @@
-# React + Vite
+# TextED ✍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application where users can type text and **convert it to Uppercase or Lowercase** with a button click!
 
-Currently, two official plugins are available:
+## 🛠 Features
+- Convert text to **Uppercase**.
+- Convert text to **Lowercase**.
+- Live text updates as you type.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Project Structure
+```
+/src
+ ├── App.jsx
+ ├── assets/
+ │    ├── Navbar.jsx
+ │    ├── Heading.jsx
+ │    └── Form.jsx
+ │         └── Button.jsx
+ ├── App.css
+```
 
-## Expanding the ESLint configuration
+## 🚀 How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Dipan46/TextED.git
+   ```
+2. Go to project directory:
+   ```bash
+   cd TextED
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open `http://localhost:5173` in your browser!
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Built With
+- React.js
+- Vite (optional, if you're using it)
+- HTML5, CSS3
+
+## 📸 Preview
+
+![Packing List App Preview](./preview/prev.png)
+
+> Example UI of the app in action
+
+## 🧑‍💻 Author
+
+Made with ❤️ by [Dipan46](https://github.com/Dipan46)
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+For major changes, please open an issue first to discuss what you would like to change.
