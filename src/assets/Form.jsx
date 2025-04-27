@@ -1,21 +1,38 @@
 import { useState } from "react";
 import Button from "./Button";
 
-function Form(props) {
+function Form() {
     const [text, setText] = useState("");
 
     function handleUpper(e) {
-        e.preventDefault()
         setText(text.toUpperCase());
     }
+
     function handleLower(e) {
-        e.preventDefault()
         setText(text.toLowerCase());
     }
 
+    function handleNormal() {
+        let capitalizedText = text
+            .split(". ")
+            .map((sentence) => {
+                return sentence.charAt(0).toUpperCase() + sentence.slice(1);
+            })
+            .join(". ");
+
+        setText(capitalizedText);
+    }
+
+    function handleCapitalise() {
+        let capitalizedText = text
+            .split(" ")
+            .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(" ");
+        setText(capitalizedText);
+    }
 
     return (
-        <form className="ta">
+        <form className="ta" onSubmit={(e) => e.preventDefault()}>
             <textarea
                 placeholder="Write What's on your mind"
                 name="textarea"
@@ -26,12 +43,13 @@ function Form(props) {
                     setText(e.target.value);
                 }}
                 value={text}
-            >
-            </textarea>
+            ></textarea>
             <div id="btnc">
                 <div id="btn">
                     <Button onClick={handleUpper}>toUpper</Button>
                     <Button onClick={handleLower}>toLower</Button>
+                    <Button onClick={handleNormal}>toNormal</Button>
+                    <Button onClick={handleCapitalise}>Capitalise</Button>
                 </div>
             </div>
         </form>
