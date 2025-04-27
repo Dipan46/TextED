@@ -4,11 +4,11 @@ import Button from "./Button";
 function Form() {
     const [text, setText] = useState("");
 
-    function handleUpper(e) {
+    function handleUpper() {
         setText(text.toUpperCase());
     }
 
-    function handleLower(e) {
+    function handleLower() {
         setText(text.toLowerCase());
     }
 
