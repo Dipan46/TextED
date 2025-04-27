@@ -5,6 +5,10 @@ A simple React application where users can type text and **convert it to Upperca
 It looks like you've listed the features of your app, but there’s a small **repetition** in the text. The **"Convert text to Lowercase"** is mentioned **three times**. Here's a corrected version:
 
 ---
+## 🔍 Preview
+- Live - https://dipan46.github.io/texted/
+
+---
 
 ## 🛠 Features
 - Convert text to **Uppercase**
